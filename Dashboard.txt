@@ -1,0 +1,34 @@
+this.kont.remove();
+        var prikaz = document.querySelector(".PrikazProjekta");
+        prikaz.classList.toggle("active");
+        this.kont = prikaz;
+
+        prikaz = this.kont.querySelector(".divZaProjekat");
+        var Lista = ['<ion-icon name="megaphone-outline"></ion-icon>',
+                    '<ion-icon name="people-outline"></ion-icon>',
+                    '<ion-icon name="construct-outline"></ion-icon>',
+                    '<ion-icon name="speedometer-outline"></ion-icon>',
+                    '<ion-icon name="podium-outline"></ion-icon>'
+                    ];
+        var ul = document.createElement("ul");
+        prikaz.appendChild(ul);
+        var i = 0;
+        Lista.forEach(el =>{
+            var li = document.createElement("li");
+            ul.appendChild(li);
+            if(i==0)
+            li.className = "active";
+            i=1;
+
+            var div = document.createElement("div");
+            div.innerHTML = el;
+            li.appendChild(div);
+        });
+        var list = this.kont.querySelectorAll("ul li");
+        function activeLink(){
+            list.forEach((item)=>
+                item.classList.remove('active'));
+                this.classList.toggle('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click', activeLink));
