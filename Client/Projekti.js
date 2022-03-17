@@ -350,7 +350,7 @@ export class Projekti {
     }
     obrisiProjekat(IDProjekta)
     {
-        if(confirm("Da li ste sigurni da zelite obrisati projekat?") == true)
+        if(confirm("Da li ste sigurni da želite obrisati projekat?") == true)
         {
             fetch("https://localhost:5001/Projekti/ObrisiProjekat/"+IDProjekta,{
                 method: "DELETE"

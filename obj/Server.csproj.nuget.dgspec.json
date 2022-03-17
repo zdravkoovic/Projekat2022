@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zdravkovic\\Desktop\\Projekat\\Server.csproj": {}
+    "C:\\Users\\Zdravkovic\\Desktop\\Projekat2022\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zdravkovic\\Desktop\\Projekat\\Server.csproj": {
+    "C:\\Users\\Zdravkovic\\Desktop\\Projekat2022\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zdravkovic\\Desktop\\Projekat\\Server.csproj",
+        "projectUniqueName": "C:\\Users\\Zdravkovic\\Desktop\\Projekat2022\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\Zdravkovic\\Desktop\\Projekat\\Server.csproj",
+        "projectPath": "C:\\Users\\Zdravkovic\\Desktop\\Projekat2022\\Server.csproj",
         "packagesPath": "C:\\Users\\Zdravkovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zdravkovic\\Desktop\\Projekat\\obj\\",
+        "outputPath": "C:\\Users\\Zdravkovic\\Desktop\\Projekat2022\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zdravkovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
