@@ -549,7 +549,8 @@ export class Projekti {
             alert("Prezime inženjera je neispravno uneto");
             return;
         }
-        if(email == "")
+        var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(email == "" || !email.match(mailFormat))
         {
             alert("Email inženjera je neispravno unet");
             return;
