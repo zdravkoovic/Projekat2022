@@ -22,9 +22,9 @@ Kada se projekat odabere, sledeće što se pojavljuje prikazuje elementarne poda
 
 U nastavku se nalaze 2 dela za dodavanje. Jedan se odnosi na inženjera a drugi na radnika i imaju odgovarajuće ikonice. Ispod toga se nalaze tabele sa odgovarajućim podacima. Klikom na crvenu ikonicu, u kojoj se nalazi simbol x, u tabeli se pojavljuju iste, samo manje veličine, u svakom redu tabele. To omogućuje korisniku da izbaci određeni objekat iz odabranog projekta. Crvena ikonica tada postaje zelena i menja simbol. Zelena ikonica označava kraj izbacivanja. Kod tabela za inženjere i radnike postoji mogućnost da se prikaže email adresa zaposlenog kada se pokazivačem pređe preko odgovarajućeg reda u tabeli. Klikom na ime i prezime zaposlenog otvara se aplikacije Inbox koja omogućava slanje poruke na odgovarajuću email adresu. Ta funkcionalnost se odnosi na komunikaciju između glavnog i odgovornog za taj projekat sa ljudima koji rade na tom projektu.
 
-
-<img width="619" alt="5" src="https://github.com/zdravkoovic/Projekat2022/assets/76448150/2474e50a-8f51-4a62-8df0-42535e831d4a">
-
+<p align="center">
+  <img width="619" alt="5" src="https://github.com/zdravkoovic/Projekat2022/assets/76448150/2474e50a-8f51-4a62-8df0-42535e831d4a">
+</p>
 
 Postoji i interaktivni deo za unos materijala i mašina. Inicijalno je deo za dodavanje materijala proširen a deo za dodavanje mašine skupljen. Izgled zavisi od toga da li je deo proširen ili skupljen. Klikom na ikonicu mašine dešava se to da se deo za mašinu proširi i da se tada nađu atributi mašine koje treba uneti. Postoje validacije koje sprečavaju unos nekorektnog sadržaja sa odgovarajućom porukom, kao što je i prikazano na slici ispod.
 
